@@ -78,4 +78,14 @@ public final class RedisUtil {
             return false;
         }
     }
+
+    public boolean setKeyTime(String key, Object value, long time) {
+        try {
+            redisTemplate.opsForValue().set(key, value, time);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
 }

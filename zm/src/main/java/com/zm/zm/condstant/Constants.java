@@ -6,8 +6,8 @@ package com.zm.zm.condstant;
  */
 public class Constants {
 
-    public static final String TOKEN_FORMAT = "";
+    public static final String TOKEN_FORMAT = "token_format";
 
-    public static final String USER_TOKEN = "";
+    public static final String USER_TOKEN = "user_token";
 
 }

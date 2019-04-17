@@ -1,8 +1,10 @@
 package com.zm.zm.fileter;
 
 import com.zm.zm.condstant.Constants;
+import com.zm.zm.exception.BusinessException;
 import com.zm.zm.user.AuthIgnore;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -45,10 +47,8 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
 
         //token凭证为空
         if (StringUtils.isBlank(token)) {
-            // TODO 验证
-            //  throw new AuthException(Constants.USER_TOKEN + "不能为空", HttpStatus.UNAUTHORIZED.value());
+              throw new BusinessException(HttpStatus.UNAUTHORIZED.getReasonPhrase(), Constants.USER_TOKEN + "不能为空");
         }
-
         return true;
     }
 }

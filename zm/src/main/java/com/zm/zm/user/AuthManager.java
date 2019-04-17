@@ -3,7 +3,9 @@ package com.zm.zm.user;
 import com.zm.zm.condstant.Constants;
 import com.zm.zm.dao.TokenManager;
 import com.zm.zm.entity.UserInfo;
+import com.zm.zm.exception.BusinessException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -49,8 +51,7 @@ public class AuthManager {
         String token = request.getAttribute(Constants.USER_TOKEN).toString();
         UserInfo userInfo = tokenManager.getUserInfoByToken(token);
         if (userInfo == null) {
-            // TODO 未抛异常
-//            throw new AuthException("该用户已过期", HttpStatus.UNAUTHORIZED.value());
+            throw new BusinessException(HttpStatus.UNAUTHORIZED.getReasonPhrase(), "该用户已过期");
         }
         return userInfo;
     }

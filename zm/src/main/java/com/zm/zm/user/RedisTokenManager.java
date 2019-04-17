@@ -19,7 +19,6 @@ public class RedisTokenManager implements TokenManager {
     @Autowired
     private RedisUtil redisUtils;
 
-
     /**
      * 创建token
      * @param userInfo
@@ -29,9 +28,8 @@ public class RedisTokenManager implements TokenManager {
     public String getToken(UserInfo userInfo){
         //使用uuid作为源token
         String token = UUID.randomUUID().toString().replace("-", "");
-        String token_format=String.format(Constants.TOKEN_FORMAT,token);
-//        redisUtils.set(token_format,userInfo,globalConfig.getTokenExpires());
-        // TODO 未设置
+        String token_format=String.format(Constants.TOKEN_FORMAT, token);
+        redisUtils.setKeyTime(token_format, userInfo, 3000L);
         return token;
     }
 
@@ -43,8 +41,7 @@ public class RedisTokenManager implements TokenManager {
     public void refreshUserToken(String token){
         token=String.format(Constants.TOKEN_FORMAT,token);
         if(redisUtils.exists(token)){
-            //TODO 未做redis 刷新功能
-//            redisUtils.setExpireTime(token, globalConfig.getTokenExpires());
+            redisUtils.expire(token, 3000);
         }
     }
 
