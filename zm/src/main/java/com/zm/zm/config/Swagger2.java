@@ -10,7 +10,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 /**
- * @author xiaobin
+ * @author xx
  * @date 2019/4/17 15:22
  */
 @Configuration

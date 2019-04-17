@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 /**
- * @author xiaobin
+ * @author xx
  * @date 2019/4/15 15:34
  */
 public class HelloController {
