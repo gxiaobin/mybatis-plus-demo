@@ -21,7 +21,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.scb.sysAdmin.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.zm.zm.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

@@ -3,7 +3,7 @@ package com.zm.zm.util;
 import com.zm.zm.base.BaseRes;
 
 /**
- * @author xiaobin
+ * @author xx
  * @date 2019/4/17 17:29
  */
 public class ResultUtil {

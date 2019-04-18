@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @author xx
  * @date 2019/4/17 17:19
+ * @desc 拦截接口信息
  */
 @Component
 public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
