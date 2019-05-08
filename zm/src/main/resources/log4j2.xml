@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 优先级从高到低依次为：OFF、FATAL、ERROR、WARN、INFO、DEBUG、TRACE、 ALL -->
+<configuration status="OFF">
+	<Properties>
+		<property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss z} %-5level %class{36}
+			%L %M - %msg%xEx%n</property>
+		<property name="LOG_HOME">E:/logs</property>
+		<property name="FILE_NAME">E:/logs/scb-member.log</property>
+		<property name="ROLLING_FILE_NAME">${LOG_HOME}/app-%d{yyyy-MM-dd}-%i.log</property>
+		<property name="EVERY_FILE_SIZE">10M</property><!-- 日志切割的最小单位 -->
+		<property name="OUTPUT_LOG_LEVEL">INFO</property><!-- 日志输出级别 -->
+	</Properties>
+	<!--先定义所有的appender -->
+	<appenders>
+		<!--这个输出控制台的配置 -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch） -->
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<!-- 输出日志的格式 -->
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+		<!-- 重要的是，如果有多个ThresholdFilter，那么Filters是必须的，同时在Filters中， 首先要过滤不符合的日志级别，把不需要的首先DENY掉，然后再ACCEPT需要的日志级别，这个次序不能搞颠倒。 -->
+		<!--这个会打印出所有的信息，每次大小超过size，则这size大小的日志会自动存入按年份-月份建立的文件夹下面并进行压缩，作为存档 -->
+		<!-- 按月生成归档日志，可以使用 filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log" -->
+		<!-- 显示error级别之外的信息 -->
+		<RollingFile name="RollingFile" fileName="${FILE_NAME}"
+			filePattern="${ROLLING_FILE_NAME}">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+			<SizeBasedTriggeringPolicy
+				size="${EVERY_FILE_SIZE}" />
+			<Filters>
+				<!-- ThresholdFilter level="OFF" onMatch="DENY" onMismatch="NEUTRAL"/> -->
+				<ThresholdFilter level="INFO" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			<DefaultRolloverStrategy max="20" />  <!-- 最多保存的文件个数 -->
+		</RollingFile>
+	</appenders>
+	<!-- 定义了logger并引入的appender，appender 生效 -->
+	<loggers>
+		<!--建立默认的root的logger，在root的level中指定输出的级别， -->
+		<root level="${OUTPUT_LOG_LEVEL}">
+			<appender-ref ref="RollingFile" />
+			<appender-ref ref="Console" />
+		</root>
+	</loggers>
+</configuration>
