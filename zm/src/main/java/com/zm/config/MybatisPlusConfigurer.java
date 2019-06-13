@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * @date 2019/2/1
  */
 @Configuration
-@MapperScan("com.zm.zm.mapper")
+@MapperScan("com.zm.mapper")
 public class MybatisPlusConfigurer {
     /**
      * 分页插件

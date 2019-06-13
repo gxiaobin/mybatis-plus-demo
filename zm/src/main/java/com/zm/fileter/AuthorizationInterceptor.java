@@ -1,6 +1,6 @@
 package com.zm.fileter;
 
-import com.zm.condstant.Constants;
+import com.zm.constant.Constants;
 import com.zm.exception.BusinessException;
 import com.zm.entity.user.AuthIgnore;
 import org.apache.commons.lang3.StringUtils;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author xx
+ * @author 一个忙来无聊的人
  * @date 2019/4/17 17:19
  * @desc 拦截接口信息
  */

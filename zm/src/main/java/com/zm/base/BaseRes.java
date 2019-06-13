@@ -7,10 +7,10 @@ package com.zm.base;
  * @date 2019/4/16 16:35
  */
 public class BaseRes {
-
-    private String retCode = "000000";// retCode 000001 代码成功 000000 失敗
-
-    private String retMsg = "失败"; // 返回消息信息
+    // retCode 000001 代码成功 000000 失敗
+    private String retCode = "000000";
+    // 返回消息信息
+    private String retMsg = "失败";
 
     public String getRetCode() {
         return retCode;

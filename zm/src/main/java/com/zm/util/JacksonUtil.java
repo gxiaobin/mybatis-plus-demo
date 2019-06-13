@@ -63,7 +63,6 @@ public class JacksonUtil {
 	 * @return
 	 */
 	public static <T> List<T> json2BeanList(String jsonData, Class<T> beanType) {
-		// List类型mapper.getTypeFactory().constructParametricType(List.class, Bean.class);
 		JavaType javaType = MAPPER.getTypeFactory().constructParametricType(List.class, beanType);
 		try {
 			return MAPPER.readValue(jsonData, javaType);

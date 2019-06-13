@@ -4,7 +4,55 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="815e11dc-c6e7-4475-8c1e-bdefc1e2889a" name="Default Changelist" comment="" />
+    <list default="true" id="815e11dc-c6e7-4475-8c1e-bdefc1e2889a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/BroadcastRocketMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/FilterRocketMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/ListSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/OrderedRocketMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/RocketMQInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/ScheduledRocketMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/OnewayProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/SyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/JodaTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/PrimaryKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/ZmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/ZmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/condstant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/condstant/ResposeMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/constant/ResposeMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/MybatisPlusConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/config/MybatisPlusConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/dao/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthIgnore.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthIgnore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/RedisTokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/RedisTokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/GlobalDefultExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/GlobalDefultExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/feign/MemberClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/feign/MemberClientFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/fileter/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/fileter/AuthorizationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/xml/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/xml/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/JacksonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/UserInfoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/java/com/zm/util/UserInfoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zm/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zm/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/zm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,29 +69,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/ZmApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zm/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/RedisTokenManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-945">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/ZmApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-294">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/JacksonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -51,59 +123,47 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zm/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/Swagger2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/entity/UserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/util/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/mapper/UserInfoMapper.java">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/FeignConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="24" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/controller/UserInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-919">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/exception/GlobalDefultExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/feign/MemberClientFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -125,26 +185,82 @@
       <find>org.springframework.boot</find>
       <find>org.freemarker</find>
       <find>baomidou</find>
-      <find>mybatisplus-spring-boot-starter</find>
       <find>spring-boot-starter-parent</find>
+      <find>set</find>
+      <find>select</find>
+      <find>j</find>
+      <find>log</find>
+      <find>SDF</find>
+      <find>joda-time</find>
+      <find>clou</find>
+      <find>mybatisplus-spring-boot-starter</find>
+      <find>192.168.2.79</find>
+      <find>str_result</find>
+      <find>127</find>
+      <find>GlobalConfigUtils</find>
+      <find>192.168.2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>strResult</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/helloController.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/ZmApplication.java" />
-        <option value="$PROJECT_DIR$/zm/src/test/java/com/zm/zm/demo/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zm/src/test/java/com/zm/zm/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/MybatisPlusConfigurer.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/zm/pom.xml" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/base/PageVO.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseReq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/feign/A.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/RandomUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/TokenUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/AsyncProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/SyncProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/OnewayProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/MqInfo.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/JodaTimeUtils.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseRes.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/condstant/Constants.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/OrderedProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/OrderedProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/a.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/BroadcastRocketMq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/AsyncProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/OnewayProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/product/SyncProducer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/fileter/AuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/exception/GlobalDefultExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthIgnore.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/ScheduledRocketMq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/RocketMQInfo.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/Tesgt.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/BatchMsgRocketMq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/FilterRocketMq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/SmsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/JacksonUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/xml/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/service/IUserInfoService.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/UserInfoUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/config/MybatisPlusConfigurer.java" />
         <option value="$PROJECT_DIR$/zm/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/mq/OrderedRocketMq.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/PrimaryKeyUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/RedisTokenManager.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/service/TokenManager.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthManager.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/feign/MemberClientFeign.java" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/zm/pom.xml" />
+        <option value="$PROJECT_DIR$/zm/src/main/java/com/zm/ZmApplication.java" />
       </list>
     </option>
   </component>
@@ -173,79 +289,22 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="zm" type="b2602c69:ProjectViewProjectNode" />
               <item name="zm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,25 +317,34 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scb_new/mz-edu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zm.zm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zm.zm.config" />
+      <recent name="com.zm.util" />
+      <recent name="com.zm.base" />
+      <recent name="com.zm.zm.condstant" />
+      <recent name="com.zm.zm.user" />
+      <recent name="com.zm.zm.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\zm\zm\src\main\java\com\zm\zm\util" />
+      <recent name="E:\project\zm\zm\src\main\resources" />
       <recent name="E:\project\zm\zm\src\main\java\com\zm\zm\config" />
+      <recent name="E:\project\zm\zm\src\main\java\com\zm\zm\base" />
       <recent name="E:\project\zm\zm\src\test\java\com\zm\zm" />
     </key>
   </component>
@@ -292,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZmApplication">
+  <component name="RunManager" selected="Spring Boot.ZmApplication (1)">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zm.zm.CodeGenerator" />
       <module name="zm" />
@@ -305,6 +373,13 @@
       <RunnerSettings RunnerId="Debug with VisualVM">
         <option name="visualVMId" value="457619386430600" />
       </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZmApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zm.ZmApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -342,18 +417,54 @@
       <workItem from="1555375971628" duration="4228000" />
       <workItem from="1555396904002" duration="703000" />
       <workItem from="1555400641533" duration="229000" />
-      <workItem from="1555490624685" duration="201000" />
+      <workItem from="1555490624685" duration="9638000" />
+      <workItem from="1555580865461" duration="1011000" />
+      <workItem from="1555635683085" duration="1290000" />
+      <workItem from="1555894512459" duration="1963000" />
+      <workItem from="1555897374145" duration="2571000" />
+      <workItem from="1555981093525" duration="722000" />
+      <workItem from="1556071747936" duration="1806000" />
+      <workItem from="1556093733275" duration="2782000" />
+      <workItem from="1556244055915" duration="2900000" />
+      <workItem from="1556412837235" duration="590000" />
+      <workItem from="1556420778785" duration="733000" />
+      <workItem from="1556499122706" duration="591000" />
+      <workItem from="1556520778601" duration="73000" />
+      <workItem from="1557308081550" duration="4033000" />
+      <workItem from="1557363282917" duration="4264000" />
+      <workItem from="1557708843656" duration="2587000" />
+      <workItem from="1557881712017" duration="630000" />
+      <workItem from="1557915090256" duration="5723000" />
+      <workItem from="1557977459086" duration="7844000" />
+      <workItem from="1558055245054" duration="1888000" />
+      <workItem from="1558508727922" duration="602000" />
+      <workItem from="1558510392508" duration="707000" />
+      <workItem from="1558512150225" duration="628000" />
+      <workItem from="1558517282969" duration="1000" />
+      <workItem from="1559610668329" duration="1335000" />
+      <workItem from="1559720182120" duration="612000" />
+      <workItem from="1559725156314" duration="16000" />
+      <workItem from="1559811415939" duration="2123000" />
+      <workItem from="1560134092091" duration="7893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18911000" />
+    <option name="totallyTimeSpent" value="86266000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,30 +472,30 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32925472" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32850778" />
       <window_info anchor="bottom" id="Run with VisualVM" order="1" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="2" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="3" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.51390433" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39933258" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4610245" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32925472" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32850778" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
-      <window_info anchor="bottom" id="Version Control" order="18" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.32962137" />
       <window_info anchor="right" id="Mybatis datasource" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3296" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32942432" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -392,211 +503,426 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18346667" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="1" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="2" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.51390433" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39933258" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32925472" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="bottom" id="Database Changes" order="17" />
-      <window_info anchor="bottom" id="Version Control" order="18" />
-      <window_info anchor="right" id="Mybatis datasource" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3296" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/UserInfoUtil.java</url>
+          <line>36</line>
+          <properties field="TOKEN_SECRET" class="com.zm.util.UserInfoUtil" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/S.java" />
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/D.java" />
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/A.java" />
-    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/zm/ZmApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mq/BroadcastRocketMq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="349">
+          <caret line="30" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.1.0/mybatis-plus-generator-3.1.0.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mq/Tesgt.java" />
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mq/ListSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="3" />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mq/FilterRocketMq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="1350">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/service/IUserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/mapper/xml/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/zm/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2275#2413#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/MybatisPlusConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+        <state relative-caret-position="25">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/xml/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="700">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/RedisConfig.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.1.1.RELEASE/spring-cloud-starter-openfeign-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mapper/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/service/ISmsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/SmsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/util/RedisUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0-sources.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/MybatisPlusConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/SpringbootIntercepterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="28" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/fileter/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/mapper/UserInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/base/BaseRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/base/PageVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/mq/OrderedRocketMq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeOrderlyStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/PrimaryKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/ZmApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/demo/service/IUserInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/entity/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/test/java/com/zm/demo/mapper/UserInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="281">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/ZmApplication.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/ResultUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/UserInfoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#741#765#0" expanded="true" />
+            <element signature="e#921#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0-sources.jar!/com/baomidou/mybatisplus/core/toolkit/GlobalConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1049">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="95" lean-forward="true" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0-sources.jar!/com/baomidou/mybatisplus/extension/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/service/TokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthIgnore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/AuthManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/LoginRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/user/RedisTokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/exception/GlobalDefultExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/feign/MemberClientFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-919">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zm/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/config/Swagger2.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/ZmApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="425">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/zm/controller/UserInfoController.java">
+    <entry file="file://$PROJECT_DIR$/zm/src/main/java/com/zm/util/JacksonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="143">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zm/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="175">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>

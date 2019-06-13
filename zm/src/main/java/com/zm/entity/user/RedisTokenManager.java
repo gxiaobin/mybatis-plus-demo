@@ -2,15 +2,15 @@ package com.zm.entity.user;
 
 import com.zm.entity.UserInfo;
 import com.zm.util.RedisUtil;
-import com.zm.condstant.Constants;
-import com.zm.dao.TokenManager;
+import com.zm.constant.Constants;
+import com.zm.service.TokenManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
 /**
- * @author xx
+ * @author 一个忙来无聊的人
  * @date 2019/4/17 17:06
  */
 @Component
@@ -28,8 +28,8 @@ public class RedisTokenManager implements TokenManager {
     public String getToken(UserInfo userInfo){
         //使用uuid作为源token
         String token = UUID.randomUUID().toString().replace("-", "");
-        String token_format=String.format(Constants.TOKEN_FORMAT, token);
-        redisUtils.setKeyTime(token_format, userInfo, 3000L);
+        String tokenFormat=String.format(Constants.TOKEN_FORMAT, token);
+        redisUtils.setKeyTime(tokenFormat, userInfo, 3000L);
         return token;
     }
 

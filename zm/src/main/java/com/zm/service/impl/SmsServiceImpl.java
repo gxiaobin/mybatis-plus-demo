@@ -12,6 +12,7 @@ import com.zm.service.ISmsService;
 import com.zm.util.JacksonUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
@@ -20,6 +21,7 @@ import java.util.Map;
  * @author xiaobin
  * @date 2019/5/8 17:36
  */
+@Service
 public class SmsServiceImpl implements ISmsService {
     private static final Logger logger = LogManager.getLogger(SmsServiceImpl.class);
 

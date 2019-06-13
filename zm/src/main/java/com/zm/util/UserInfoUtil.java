@@ -4,9 +4,9 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.zm.condstant.Constants;
+import com.zm.constant.Constants;
 import com.zm.entity.UserInfo;
-import com.zm.mapper.UserInfoMapper;
+import com.zm.service.UserInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -37,7 +37,7 @@ public class UserInfoUtil {
     private static final String TOKEN_SECRET = "EJHWQK78SI61UB3FJBF26BQE";
 
     @Autowired
-    private UserInfoMapper userDao;
+    private UserInfoService userInfoService;
 
     public UserInfo getUerInfo(HttpSession session) {
         if (!isLogin(session)) {
@@ -63,7 +63,7 @@ public class UserInfoUtil {
         if (redisUtil.exists(token)) {
             UserInfo userEntity = new UserInfo();
             userEntity.setUserId(String.valueOf(redisUtil.get(token)));
-            user = userDao.selectById(userEntity.getUserId());
+            user = userInfoService.getById(userEntity.getUserId());
             if (user != null) {
                 redisUtil.expire(token, Constants.REDIS_USER_TIME);
             }

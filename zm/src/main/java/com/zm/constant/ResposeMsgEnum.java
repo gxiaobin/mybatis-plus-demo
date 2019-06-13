@@ -1,4 +1,4 @@
- package com.zm.condstant;
+ package com.zm.constant;
 /**
  *  操作返回信息：提示，异常等
  * @author Administrator

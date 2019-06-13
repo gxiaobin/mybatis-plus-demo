@@ -1,7 +1,7 @@
 package com.zm.exception;
 
 /**
- * @author xiaobin
+ * @author 一个忙来无聊的人
  * @date 2019/4/17 17:22
  */
 public class BusinessException extends RuntimeException{

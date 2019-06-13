@@ -6,7 +6,7 @@ package com.zm.config;
  */
 
 import com.alibaba.fastjson.JSONObject;
-import com.zm.condstant.ResposeMsgEnum;
+import com.zm.constant.ResposeMsgEnum;
 import com.zm.entity.UserInfo;
 import com.zm.entity.user.LoginRes;
 import com.zm.util.UserInfoUtil;
