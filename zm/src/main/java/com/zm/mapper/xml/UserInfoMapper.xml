@@ -2,29 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zm.mapper.UserInfoMapper">
 
-    <!-- 以下为使模糊查询-->
-    <sql id="member_collect_list">
-        <if test="memberCollect != null ">
-            <if test="memberCollect.id != null and memberCollect.id != ''">
-                AND c.id = #{memberCollect.id,jdbcType=VARCHAR}
-            </if>
-            <if test="memberCollect.m_id != null and memberCollect.m_id != ''">
-                AND c.m_id = #{memberCollect.m_id,jdbcType=VARCHAR}
-            </if>
-            <if test="memberCollect.mc_id != null and memberCollect.mc_id != ''">
-                AND c.mc_id = #{memberCollect.mc_id,jdbcType=VARCHAR}
-            </if>
-            <if test="memberCollect.b_collectTime != null">
-                AND c.collectTime &gt;= #{memberCollect.b_collectTime,jdbcType=VARCHAR}
-            </if>
-            <if test="memberCollect.e_collectTime != null ">
-                AND c.collectTime &lt;= #{memberCollect.e_collectTime,jdbcType=VARCHAR}
-            </if>
-            <if test="memberCollect.mc_name != null and memberCollect.mc_name != ''">
-                AND c.mc_name LIKE CONCAT('%',#{memberCollect.mc_name},'%')
-            </if>
-        </if>
-    </sql>
+
 
 <!--    <select id="totalCount" parameterType="java.lang.String" resultType="int">-->
 <!--        select count(c.id)-->
