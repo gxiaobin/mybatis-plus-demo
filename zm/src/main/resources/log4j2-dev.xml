@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 优先级从高到低依次为：OFF、FATAL、ERROR、WARN、INFO、DEBUG、TRACE、 ALL -->
+<!--设置log4j2的自身log级别为warn -->
+<configuration status="warn">
+	<properties>
+		<!--${sys:catalina.home}表示linux中环境变量中的tomcat根目录 -->
+		<Property name="log_path">${sys:catalina.home}/logs/regulators</Property>
+	</properties>
+	<appenders>
+		<console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%d][%t][%p][%c:%L] %m%n" />
+		</console>
+		<!--INFO 级别归档-->
+		<RollingFile name="RollingFileInfo" fileName="${log_path}/info.log" filePattern="${log_path}/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log">
+			<Filters>
+				<ThresholdFilter level="INFO" />
+			</Filters>
+			<PatternLayout pattern="[%d][%t][%p][%c:%L] %m%n" />
+			<Policies>
+				<!-- 归档每天的文件 -->
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<!-- 限制单个文件大小 -->
+				<SizeBasedTriggeringPolicy size="100 MB" />
+			</Policies>
+			<!-- 限制每天文件个数 -->
+			<DefaultRolloverStrategy compressionLevel="0" max="10"/>
+		</RollingFile>
+
+		<!--warn级别日志归档-->
+		<RollingFile name="RollingFileWarn" fileName="${log_path}/warn.log" filePattern="${log_path}/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log">
+			<Filters>
+				<ThresholdFilter level="WARN" />
+				<ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL" />
+			</Filters>
+			<PatternLayout pattern="[%d][%t][%p][%c:%L] %m%n" />
+			<Policies>
+				<!-- 归档每天的文件 -->
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<!-- 限制单个文件大小 -->
+				<SizeBasedTriggeringPolicy size="100 MB" />
+			</Policies>
+			<!-- 限制每天文件个数 -->
+			<DefaultRolloverStrategy compressionLevel="0" max="10"/>
+		</RollingFile>
+
+		<RollingFile name="RollingFileError" fileName="${log_path}/error.log" filePattern="${log_path}/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log">
+			<ThresholdFilter level="ERROR" />
+			<PatternLayout pattern="[%d][%t][%p][%c:%L] %m%n" />
+			<Policies>
+				<!-- 归档每天的文件 -->
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<!-- 限制单个文件大小 -->
+				<SizeBasedTriggeringPolicy size="100 MB" />
+			</Policies>
+			<!-- 限制每天文件个数 -->
+			<DefaultRolloverStrategy compressionLevel="0" max="10"/>
+		</RollingFile>
+
+		<!-- 配置mongdb appender -->
+	</appenders>
+
+	<loggers>
+		<!--过滤掉spring和hibernate的一些无用的debug信息 -->
+		<root level="info">
+			<appender-ref ref="Console" />
+			<appender-ref ref="RollingFileInfo" />
+			<appender-ref ref="RollingFileWarn" />
+			<appender-ref ref="RollingFileError" />
+			<!-- 输出日志到mongodb -->
+		</root>
+	</loggers>
+
+</configuration>
