@@ -126,11 +126,11 @@
         </dependency>
         <!--spring cloud 依赖-->
         <!--服务发现依赖 -->
-        <!-- feign -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-openfeign</artifactId>-->
-<!--        </dependency>-->
+        <!-- feign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
 
         <!--日志依赖-->
         <dependency>
@@ -149,7 +149,6 @@
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
         </dependency>
-
     </dependencies>
 
     <dependencyManagement>

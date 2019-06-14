@@ -1,13 +1,12 @@
 package com.zm.entity;
 
 import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * @author 一个忙来无聊的人
@@ -15,28 +14,29 @@ import java.time.LocalDateTime;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
+// @Accessors(fluent = true)若为true，则getter和setter方法的方法名都是属性名  如  public Integer id(){}
+//@Accessors(chain = true) 若为true，则setter方法返回当前对象  public User setId(Integer id){}
+// @Accessors(prefix = "true") 若为true，则getter和setter方法会忽视属性名的指定前缀（遵守驼峰命名）
 @Accessors(chain = true)
 @ApiModel(value="UserInfo对象", description="")
 public class UserInfo implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+    private static final long serVersionUID = 1L;
 
-    private String userId;
+    private Integer  id;
 
-    @ApiModelProperty(value = "名称不可为空")
+    private String loginName;
+
     private String name;
 
-    @ApiModelProperty(value = "年龄不可为空")
-    private Integer age;
+    private String pwd ;
 
-    @ApiModelProperty(value = "创建时间")
-    private LocalDateTime createTime;
+    private Date createTime;
 
-    @ApiModelProperty(value = "修改时间，实时更新")
-    private LocalDateTime updateTime;
+    private Date modifyTime;
 
-    @ApiModelProperty(value = "删除标志默认N未删除")
     private String deleteFlag;
 
+    private String statusFlag;
 
 }
